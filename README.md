@@ -11,3 +11,5 @@ Features
 -	Fits inside the feather footprint
 
 Open source hardware, producer and suggestions welcome
+
+feather nrf52832:  To achieve lowest battery current in off it is recommendend to remove the 100k pullup on EN (R5) and to replace the MBR120 shottky diode (D5) by a SI diode (1N4148).
